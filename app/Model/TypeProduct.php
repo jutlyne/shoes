@@ -26,6 +26,7 @@ class TypeProduct extends Model
       ->get();
     }
 
+
     public function addItem($data)
     {
       return DB::table('type_product')->insert([
